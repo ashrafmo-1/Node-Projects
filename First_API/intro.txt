@@ -1,0 +1,15 @@
+what is api => application programming interface
+
+/****** CRUD *******/ // user api login an dsignup
+// C > create
+// R > read
+// U > update
+// D > delete
+
+
+api method
+
+get > to get data from json file
+post > to post data from json file
+put > edit data > remove current and create ne₩ one
+patch > edit element value
