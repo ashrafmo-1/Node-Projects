@@ -25,15 +25,7 @@ const addNewUser = (req, res) => {
   res.status(201).json(user);
 }
 
-const chnageUser = (req, res) => {
-  const userId = +req.params.userId;
-  let userIndex = users.findIndex((user) => user.id === userId);
-  if (userIndex === -1) {
-    return res.status(404).json({ message: "cannot find user" });
-  }
-  users[userIndex] = {...users[userIndex], ...req.body};
-  res.status(200).json(users[userIndex]); 
-}
+eww
 
 const delUser = (req, res) => {
   const userId = +req.params.userId;
